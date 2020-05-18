@@ -1,0 +1,11 @@
+h2, p {
+    margin-bottom: 2.4rem;
+}
+h1 {font: 700 2rem "Roboto";color: hsl(000,0%,33%)}
+h3 {font: 900 1.5rem "Roboto";color: hsl(250,50%,33%)}
+time {font: 600 1rem "Roboto";color: hsl(250,100%,83%)}
+p {font: 400 1rem/1.5 "Roboto";color: hsl(000,0%,33%)}
+figcaption p {font: 400 1rem/1.5 "Roboto";color: hsl(000,0%,60%)}
+
+@media (max-width: 8.5in) { :root {font-size:16px;}}
+@media (max-width: 5in) { :root {font-size:12px;}}
