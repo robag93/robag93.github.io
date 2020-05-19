@@ -1,0 +1,57 @@
+.header {
+    width: 100%;
+    height: 80px;
+    display: block;
+    background-color: #2b303a;
+}
+
+.inner_header {
+    width: 8.5in;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.logo_cointainer {
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.logo_cointainer a {
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.logo_cointainer h1 {
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'IBM Plex Serif', serif;
+}
+
+.navigation {
+    float: right;
+    height: 100%;
+}
+
+.navigation a {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+
+.navigation a:last-child {
+    padding-right: 0;
+}
+
+.navigation a li {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    font-family: 'IBM Plex Serif', serif;
+}

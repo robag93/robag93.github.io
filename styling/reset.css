@@ -1,5 +1,5 @@
-:root { font: 20px/1.2 "Roboto", sans-serif; }
-
+:root { font: 20px/1.2 "IBM Plex Serif", serif; }
+/*https://fonts.google.com/specimen/IBM+Plex+Serif?selection.family=IBM+Plex+Serif&sidebar.open*/
 body,
 body * {
     margin: unset;
@@ -8,6 +8,7 @@ body * {
     font-size: unset;
     color: unset;
     text-decoration: unset;
+    list-style: none;
 }
 
 figure * {
