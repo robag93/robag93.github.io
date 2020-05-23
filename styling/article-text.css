@@ -1,5 +1,5 @@
-h2, p {
-    margin-bottom: 2.4rem;
+p {
+    margin: 1rem 0;
 }
 
 h1 {
@@ -15,7 +15,6 @@ time {
     font-family: 'Montserrat', sans-serif;
     font-size: .8rem;
     color: rgb(221, 189, 129);
-    margin-bottom: 1rem;
 }
 
 p {
@@ -25,7 +24,16 @@ p {
 }
 
 figcaption p {
-    font: 400 1rem/1.5 "Roboto";color: hsl(000,0%,60%,10%)
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 1rem;
+    color: hsl(220,14.85%,19.8%,50%);
+}
+
+ul {
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(220,14.85%,19.8%,85%);
+    list-style-type: disc;
+    list-style-position: inside;
 }
 
 @media (max-width: 8.5in) {
