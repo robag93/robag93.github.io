@@ -1,8 +1,24 @@
 .header {
     width: 100%;
-    height: 80px;
+    height: 70px;
     display: block;
-    background-color: #2b303a;
+    background-color: #f5deb3;
+}
+
+.banner {
+    background: rgb(43,48,58);
+    background: radial-gradient(circle, rgba(43,48,58,1) 0%, rgba(2,0,36,1) 100%);
+    height: 320px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner h1 {
+    color: white;
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 3rem;
 }
 
 .inner_header {
@@ -22,22 +38,24 @@
     height: 100%;
     display: table-cell;
     vertical-align: middle;
+    color: #2B303A;
 }
 
 .logo_cointainer h1 {
-    color: white;
+    color: #2B303A;
     height: 100%;
     display: table-cell;
     vertical-align: middle;
-    font-family: 'IBM Plex Serif', serif;
 }
 
 .navigation {
+    color: #2B303A;
     float: right;
     height: 100%;
 }
 
 .navigation a {
+    color: #2B303A;
     height: 100%;
     display: table;
     float: left;
@@ -52,8 +70,7 @@
     display: table-cell;
     vertical-align: middle;
     height: 100%;
-    color: white;
-    font-family: 'IBM Plex Serif', serif;
+    color: #2B303A;
 }
 
 @media (max-width: 8.5in) {
